@@ -1,0 +1,44 @@
+section {
+    display: flex;
+}
+
+/*set body background color to dark gray*/
+body {
+    background-color: #3f3f3f;
+}
+
+/*set the font color to white*/
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+a,
+.btn {
+    color: #fff;
+}
+
+/*set nav-link color to white*/
+.nav-link {
+    color: #fff;
+}
+
+/*set button and tabs color to yellow*/
+.btn-primary,
+.nav-pills .nav-link.active {
+    background-color: #007616;
+    border-color: #007616;
+}
+
+
+/*set modal background color to light gray*/
+.modal-content {
+    background-color: #414141;
+}
+
