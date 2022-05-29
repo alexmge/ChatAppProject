@@ -83,4 +83,4 @@ app.post('/register', async (req, res) => {
     }
 });
 
-app.listen(port || 3000, () => console.log(`Project app listening on port ${port}!`))
+app.listen(port, () => console.log(`Project app listening on port ${port}!`))
